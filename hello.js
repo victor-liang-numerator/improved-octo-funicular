@@ -1,1 +1,3 @@
-document.body.innerHTML = "<h1>Hello World</h1>";
+const helloElement = document.createElement('h1');
+helloElement.textContent = 'Hello World';
+document.body.appendChild(helloElement);
